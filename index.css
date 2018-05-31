@@ -1,0 +1,91 @@
+*{
+   font-family: 'Poppins', sans-serif;
+}
+h1,
+h2{
+    text-transform: lowercase;
+    font-size: 40px;
+}
+h1{
+    color:#000F5D;
+    font-weight: 700;
+}
+
+.h1small{
+    font-weight:300;
+}
+
+h2{
+     color:#D59F0F;
+    font-weight: 100;
+    text-align:center; 
+}
+
+h3{
+    color:#0826ba;
+    font-weight:300;
+    text-align:center; 
+}
+
+p{
+    color:#000F5D;
+    letter-spacing: 140%; 
+    padding:10 40; 
+    text-align: center;
+}
+/*------------header-------------*/
+header{
+    background-image: url(pictures/catblue);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    color:#fff;
+    font-size:130%;
+    text-align:center;
+}
+.indianatext{
+    color:#fff;
+    font-size:400%;
+    text-transform:capitalize;
+    font-weight:700;
+}
+
+.catsworktext{
+    color:#fff;
+    font-size:300%;
+    font-weight: 300;
+        
+}
+.main_navi{
+    background-color:rgba(0, 15, 93, 0.48);
+    color:#000;
+    text-align: right;
+    height:70px;
+}
+
+.main_navi li{
+    list-style: none;
+    float: right; 
+    display: inline-block;
+    padding-right: 30px; 
+    padding-top:20px;
+}
+
+.main_navi li a:link,
+.main_navi li a:visited{
+    color:#fff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent; 
+    transition: border-bottom 0.2s; 
+}
+
+.main_navi li a:hover,
+.main_navi li a:acti; {
+    border-bottom: 2px solid #D59F0F; 
+}
+/*------who employs-----*/
+.employbox{
+    margin:5 px 10px;
+    
+}
