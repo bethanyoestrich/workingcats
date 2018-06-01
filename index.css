@@ -81,7 +81,7 @@ header{
 }
 
 .main_navi li a:hover,
-.main_navi li a:acti; {
+.main_navi li a:active {
     border-bottom: 2px solid #D59F0F; 
 }
 /*------who employs-----*/
