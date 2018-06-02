@@ -1,6 +1,13 @@
 *{
-   font-family: 'Poppins', sans-serif;
+    margin: 0; 
+    padding:0; 
 }
+
+html, 
+body{
+    font-family: 'Poppins', sans-serif;  
+}
+
 h1,
 h2{
     text-transform: lowercase;
@@ -9,6 +16,7 @@ h2{
 h1{
     color:#000F5D;
     font-weight: 700;
+     padding-top: 40px;
 }
 
 .h1small{
@@ -18,7 +26,8 @@ h1{
 h2{
      color:#D59F0F;
     font-weight: 100;
-    text-align:center; 
+    text-align:center;
+     padding-top: 40px;
 }
 
 h3{
@@ -26,18 +35,24 @@ h3{
     font-weight:bold; 
     text-align:center;
     text-transform: lowercase; 
+     padding-top: 40px;
 }
 
 p{
     color:#0826ba;
     letter-spacing: 140%; 
-    padding:10 40; 
+    padding-left:40; 
+    padding-right:40; 
     text-align: center;
+     padding-top: 40px;
+    
 }
 
 .li{
     color:#000F5D; 
 }
+
+
 /*------------header-------------*/
 header{
     background-image: url(pictures/catblue);
@@ -92,4 +107,13 @@ header{
 .employbox{
     margin:5 px 10px;
     
+}
+.hoosier_pic li{
+    width:25%;
+    display:block; 
+    float:left; 
+}
+.cat_photo img{
+    width:100%;
+    height:auto; 
 }
