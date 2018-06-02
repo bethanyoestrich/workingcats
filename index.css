@@ -71,7 +71,6 @@ header{
 
 .main_navi li{
     list-style: none;
-    float: right; 
     display: inline-block;
     padding-right: 30px; 
     padding-top:20px;
