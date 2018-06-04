@@ -116,8 +116,21 @@ header{
     margin-top:40; 
     padding:0; 
 }
+
+/*------horizontal pictures------*/
+.horizontal_picture img{
+    width:100vw;
+    margin-top: 40px; 
+}
 /*------who employs-----*/
 .employbox{
     margin:5 px 10px;
     
+}
+
+/*------care------*/
+.icon_care {
+    text-align:center; 
+    color: #082093;
+    font-size: 700%;
 }
