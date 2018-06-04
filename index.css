@@ -103,17 +103,21 @@ header{
 .main_navi li a:active {
     border-bottom: 2px solid #D59F0F; 
 }
+/*------photo break-----*/
+.photobreak{
+    display:block; 
+    width:100%; 
+}
+
+.hoosier_cat_photos li{
+    list-style: none; 
+    float:left; 
+    width:25%; 
+    margin-top:40; 
+    padding:0; 
+}
 /*------who employs-----*/
 .employbox{
     margin:5 px 10px;
     
-}
-.hoosier_pic li{
-    width:25%;
-    display:block; 
-    float:left; 
-}
-.cat_photo img{
-    width:100%;
-    height:auto; 
 }
