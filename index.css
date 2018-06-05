@@ -131,6 +131,11 @@ header{
 /*------care------*/
 .icon_care {
     text-align:center; 
-    color: #082093;
+    color: #f4ce67;
     font-size: 700%;
+    padding-left:170px; 
+    margin-bottom:0; 
+}
+.cat_care{
+    padding-top:10px; 
 }
